@@ -1,0 +1,467 @@
+body{
+	margin:0;
+	background:#000000;
+	cursor:none;
+}
+
+.wrapper{
+	width:100%;
+	min-height: 1080px;
+	position: relative;
+	background-position:center;
+	background-repeat:repeat;
+	overflow: hidden;
+}
+
+.clippy-wrap{
+  position:absolute;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+	top:0;
+}
+
+.layer-1,.layer-2,.layer-3,.layer-4,.layer-5,.layer-6,.layer-7,.layer-8,.layer-9,.layer-10,.layer-12,.layer-13,.layer-14,.layer-15,.layer-16,.dover{
+	position: absolute;
+	top:0;
+	right:100;
+	width:100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 1;
+	-khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(360deg);
+		}
+		to {
+				-webkit-transform: rotate(0deg);
+		}
+}
+@-webkit-keyframes blinker {
+  from {opacity: 0;}
+  to {opacity: 0.9;}
+}
+
+.layer-1{
+	background-image:url(../img/CloudCity.png);
+  background-repeat:repeat;
+  left:0px;
+  top:80px;
+        -webkit-animation-name: example4;
+  -webkit-animation-duration: 80s;;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example4;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
+.layer-2{
+  background-repeat:no-repeat;
+  left:0px;
+  top:0px;
+  width:3000px;
+  height:2400px;
+      -webkit-animation-name: example3;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example3;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
+.layer-4{
+  background-image:url(../img/CloudCity2.png);
+  background-repeat:repeat;
+  left:0px;
+  top:80px;
+      -webkit-animation-name: example3;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example3;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
+.layer-13{
+  background-image:url(../img/Destroyer.png);
+  background-repeat:repeat;
+  left:0px;
+  top:65px;
+  -webkit-animation-name: example8;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example8;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+.layer-14{
+  background-image:url(../img/CAR.png);
+  left:0px;
+  top:65px;
+  -webkit-animation-name: example10;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 67s;
+  animation-name: example10;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  filter: brightness(70%);
+  animation-delay: 67s;
+  opacity:0;
+}
+.layer-16{
+  background-image:url(../img/Falcon.png);
+  left:0px;
+  top:65px;
+  -webkit-animation-name: example11;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 57s;
+  animation-name: example11;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  filter: brightness(70%);
+  animation-delay: 57s;
+  opacity:0;
+}
+
+.dover{        -webkit-animation-name: example9;
+  -webkit-animation-duration: 0.15s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example9;
+  animation-duration: 0.15s;
+  animation-iteration-count: infinite;
+  filter: contrast(400%);
+  left:5px;
+  top:3px;
+  }
+  
+  .layer-15{background-image:url(../img/Light4.png);
+	  -webkit-animation-name: example9;
+  -webkit-animation-duration: 0.15s;;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example9;
+  animation-duration: 0.15s;
+  animation-iteration-count: infinite;
+  filter: contrast(100%);
+  left:10px;
+  top:5px;
+  }
+
+.layer-5{
+  background-repeat:repeat;
+  top:80px;
+  opacity:0.86;
+      -webkit-animation-name: example6;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example6;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+.layer-10{
+  background-repeat:repeat;
+  background-image:url(../img/B3.png);
+  opacity:0.87;
+  width:110%;
+  top:0px;
+  left:-112px;
+    -webkit-animation-name: example3;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example3;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
+.layer-3{
+  -webkit-animation-name: example2;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-delay: 6s;
+  animation-name: example2;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  opacity:0;
+}
+.layer-12{
+	background-image:url(../img/Light2.png);
+  background-repeat:repeat;
+  left:0px;
+  top:80px;
+        -webkit-animation-name: example7;
+  -webkit-animation-duration: 7s;;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example7;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+
+}
+.layer-6{
+ background-color: #e74c3c;
+  width:110%;
+  animation: bg-color 80s infinite;
+  -webkit-animation: bg-color 80s infinite;
+  left:0px;
+}
+
+.layer-7{
+  background-repeat:repeat;
+  opacity:0.87;
+      -webkit-animation-name: example3;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example3;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
+.layer-9{
+	background-image:url(../img/moon.png);
+  -webkit-animation-name: example;
+    -webkit-animation-delay: 6s;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: example;
+    animation-delay: 6s;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  opacity:0;
+}
+
+.layer-11{
+	background-image:url(../img/SUN.png);
+	opacity:0;
+  -webkit-animation-name: example5;
+  -webkit-animation-delay: 51s;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-delay: 51s;
+  animation-name: example5;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  	position: absolute;
+	width:100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+@-webkit-keyframes example10 {
+  0%   {top:600px;left:700px; transform: scale(1); opacity:1; filter: blur(3px);}
+   6% {top:130px; left:370px; transform: scale(0.55); opacity:1; filter: blur(1px);}
+   10% {top:-10px; left:250px; transform: scale(0.3); opacity:1; filter: blur(0px);}
+   14% {top:-65px; left:190px; transform: scale(0.1); opacity:1;}
+   19% {top:-80px; left:160px; transform: scale(0); opacity:1;}
+  100% {top:-80px; left:100px; transform: scale(0); opacity:1;}
+}
+
+@keyframes example10 {
+  0%   {top:600px;left:700px; transform: scale(1); opacity:1; filter: blur(3px);}
+   6% {top:130px; left:370px; transform: scale(0.55); opacity:1; filter: blur(1px);}
+   10% {top:-10px; left:250px; transform: scale(0.3); opacity:1; filter: blur(0px);}
+   14% {top:-65px; left:190px; transform: scale(0.1); opacity:1;}
+   19% {top:-80px; left:160px; transform: scale(0); opacity:1;}
+  100% {top:-80px; left:100px; transform: scale(0); opacity:1;}
+}
+@-webkit-keyframes example11 {
+  0%   {top:770px;left:-600px; transform: scale(2); opacity:1; filter: blur(4px);}
+   4% {top:100px; left:-60px; transform: scale(0.55); opacity:1; filter: blur(1px);}
+   5.5% {top:-10px; left:20px; transform: scale(0.3); opacity:1; filter: blur(0px);}
+   8% {top:-100px; left:70px; transform: scale(0.1); opacity:1;}
+   11.5% {top:-150px; left:90px; transform: scale(0); opacity:1;}
+  100% {top:-80px; left:100px; transform: scale(0); opacity:1;}
+}
+
+@keyframes example11 {
+  0%   {top:770px;left:-600px; transform: scale(2); opacity:1; filter: blur(4px);}
+   4% {top:100px; left:-60px; transform: scale(0.55); opacity:1; filter: blur(1px);}
+   5.5% {top:-10px; left:20px; transform: scale(0.3); opacity:1; filter: blur(0px);}
+   8% {top:-100px; left:70px; transform: scale(0.1); opacity:1;}
+   11.5% {top:-150px; left:90px; transform: scale(0); opacity:1;}
+  100% {top:-80px; left:100px; transform: scale(0); opacity:1;}
+}
+@-webkit-keyframes example9 {
+  0%   {opacity:0.5;}
+  25% {opacity:1;}
+  50% {opacity:1;}
+  100% {opacity:0.5;}
+}
+
+@keyframes example9 {
+  0%   {opacity:0.5;}
+  25% {opacity:1;}
+  50% {opacity:1;}
+  100% {opacity:0.5;}
+}
+@-webkit-keyframes example7 {
+  0%   {opacity:0.05;}
+  25% {opacity:0.4;}
+  50% {opacity:0.4;}
+  100% {opacity:0.05;}
+}
+
+@keyframes example7 {
+  0%   {opacity:0.05;}
+  25% {opacity:0.4;}
+  50% {opacity:0.4;}
+  100% {opacity:0.05;}
+}
+@-webkit-keyframes example8 {
+  0%   {left:-100px; filter: brightness(200%)}
+  0.1% {left:300px; filter: brightness(90%)}
+  10% {left:550px; filter: brightness(50%)}
+  18% {left:800px; filter: brightness(35%)}
+  24% {left:900px; filter: brightness(27%)}
+  52% {left:1100px; filter: brightness(23%)}
+  63% {left:1300px; filter: brightness(35%)}
+  100% {left:200000px; filter: brightness(1000%)}
+}
+
+@keyframes example8 {
+  0%   {left:-100px; filter: brightness(200%)}
+  0.1% {left:300px; filter: brightness(90%)}
+  10% {left:550px; filter: brightness(50%)}
+  18% {left:800px; filter: brightness(35%)}
+  24% {left:900px; filter: brightness(27%)}
+  52% {left:1100px; filter: brightness(23%)}
+  63% {left:1300px; filter: brightness(35%)}
+  100% {left:200000px; filter: brightness(2000%)}
+}
+@-webkit-keyframes example2 {
+  0%   {top:-150px; left:0px; opacity:0;}
+  8%   {top:-500px; left:0px; opacity:0;}
+  45% {top:-1330px; left:200px; opacity:1;}
+  47.5% {top:-1340px; left:200px; opacity:0.4;}
+  50% {top:-1350px; left:200px; opacity:0.02;}
+  50.0001% {top:-150px; opacity:0;}
+  100% {top:-1350px; opacity:0;}
+}
+
+@keyframes example2 {
+  0%   {top:-150px; left:0px; opacity:0;}
+  8%   {top:-500px; left:0px; opacity:0;}
+  45% {top:-1330px; left:200px; opacity:1;}
+  47.5% {top:-1340px; left:200px; opacity:0.4;}
+  50% {top:-1350px; left:200px; opacity:0.02;}
+  50.0001% {top:-150px; opacity:0;}
+  100% {top:-1350px; opacity:0;}
+}
+@-webkit-keyframes example3 {
+  0%   {filter: brightness(100%);}
+  25% {filter: brightness(12%);}
+  50% {filter: brightness(12%);}
+  100% {filter: brightness(100%);}
+}
+
+@keyframes example3 {
+  0%   {filter: brightness(100%);}
+  25% {filter: brightness(12%);}
+  50% {filter: brightness(12%);}
+  100% {filter: brightness(100%);}
+}
+@-webkit-keyframes example4 {
+  0%   {filter: brightness(30%);}
+  25% {filter: brightness(100%);}
+  50% {filter: brightness(100%);}
+  100% {filter: brightness(30%);}
+}
+
+@keyframes example4 {
+  0%   {filter: brightness(30%);}
+  25% {filter: brightness(100%);}
+  50% {filter: brightness(100%);}
+  100% {filter: brightness(30%);}
+}
+@-webkit-keyframes example {
+  0%   {top:200px; left:0px; opacity:0;}
+  50% {top:-800px; left:200px; opacity:1;}
+  50.0001% {top:200px; opacity:0;}
+  100% {top:-800px; opacity:0;}
+}
+
+@keyframes example {
+  0%   {top:200px; left:0px; opacity:0;}
+  50% {top:-800px; left:200px; opacity:1;}
+  50.0001% {top:200px; opacity:0;}
+  100% {top:-800px; opacity:0;}
+}
+@-webkit-keyframes example5 {
+  0%   {top:-100px; left:0px; opacity:0;}
+  50% {top:-1100px; left:0px; opacity:1;}
+  50.0001% {top:-100px; opacity:0;}
+  100% {top:-1100px; opacity:0;}
+}
+
+@keyframes example5 {
+  0%   {top:-100px; left:0px; opacity:0;}
+  50% {top:-1100px; left:0px; opacity:1;}
+  50.0001% {top:-100px; opacity:0;}
+  100% {top:-1100px; opacity:0;}
+}
+@-webkit-keyframes example6 {
+  0%   {filter: brightness(100%);}
+  25% {filter: brightness(8%);}
+  50% {filter: brightness(8%);}
+  100% {filter: brightness(100%);}
+}
+
+@keyframes example6 {
+  0%   {filter: brightness(100%);}
+  25% {filter: brightness(8%);}
+  50% {filter: brightness(8%);}
+  100% {filter: brightness(100%);}
+}
+
+.layer-8{
+  left:0px;
+  top:0px;
+  text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+@keyframes bg-color {
+  0% { background-color:#FFFFFF; opacity:0.01;}
+  12.5% { background-color:#0000CC; opacity:0.03;}
+  25% { background-color:#0000CC; opacity:0.05;}
+  32% { background-color:#0000CC; opacity:0.06;}
+  39.5% { background-color:#0000CC; opacity:0.05;}
+  58% { background-color:#0000CC; opacity:0.04;}
+  60% { background-color:#0000CC; opacity:0.015;}
+  62.5% { background-color:#0000CC opacity:0.01;}
+  75% { background-color:#FF0000; opacity:0.05;}
+  85% { background-color:#FF6600; opacity:0.13;}
+  90% { background-color:#FF6600; opacity:0.11;}
+  100% { background-color:#FFFFFF; opacity:0.01;}
+}
+
